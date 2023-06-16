@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom"
-import { AppBar, Box, Button, IconButton, Toolbar, Typography, styled } from "@mui/material"
+import { AppBar, Box, Toolbar, styled } from "@mui/material"
 import { PrivateRoutes } from "../../routing/config"
 import { IPrivateRoutes } from "../../interfaces"
+import { Logo } from '..'
 
 const NavListWrapper = styled(Box)({
   flexGrow: 1,
@@ -20,9 +21,7 @@ const Navbar = () => {
   return (
     <AppBar position="static" sx={{ boxShadow: 1 }}>
       <Toolbar sx={{ marginX: 4, color: '#dce8e3', textShadow: '1px 0px 1px black', fontSize: '20px' }}>
-        <div>
-          Logo
-        </div>
+        <Logo />
         <NavListWrapper>
           {
             PrivateRoutes.map((route: IPrivateRoutes) => (
