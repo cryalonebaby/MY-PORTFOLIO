@@ -1,4 +1,3 @@
-import { HOC } from "../components"
 
 const ProjectsPage = () => {
   return (

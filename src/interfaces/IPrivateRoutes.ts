@@ -1,6 +1,7 @@
 interface IPrivateRoutes {
   component: JSX.Element,
-  path: string
+  path: string,
+  title: string
 }
 
 export default IPrivateRoutes

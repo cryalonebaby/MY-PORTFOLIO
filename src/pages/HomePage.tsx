@@ -1,4 +1,3 @@
-import { HOC } from "../components"
 
 const HomePage = () => {
   return (
