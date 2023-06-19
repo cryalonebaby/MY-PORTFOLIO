@@ -1,7 +1,8 @@
+import { Resume } from "../components"
 
 const HomePage = () => {
   return (
-    <div>Home</div>
+    <Resume />
   )
 }
 

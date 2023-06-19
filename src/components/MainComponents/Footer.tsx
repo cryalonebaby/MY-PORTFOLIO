@@ -4,6 +4,10 @@ import { Socials } from "../../social"
 import { ISocials } from "../../interfaces"
 import { Logo } from '..'
 
+const StyledContainer = styled(Box)({
+
+})
+
 const StyledCopyright = styled(Typography)({
 
 })
