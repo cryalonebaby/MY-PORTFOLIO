@@ -1,6 +1,6 @@
-import { HOME_PAGE, PROJECTS_PAGE, ABOUT_PAGE } from "./pages";
-import { HOME_PATH, PROJECTS_PATH, ABOUT_PATH } from "./paths";
-import { HOME_TITLE, PROJECTS_TITLE, ABOUT_TITLE } from "./titles";
+import { HOME_PAGE, PROJECTS_PAGE, ABOUT_PAGE, PROJECT_PAGE } from "./pages";
+import { HOME_PATH, PROJECTS_PATH, ABOUT_PATH, PROJECT_PATH } from "./paths";
+import { HOME_TITLE, PROJECTS_TITLE, ABOUT_TITLE, PROJECT_TITLE } from "./titles";
 import { IPrivateRoutes } from "../../interfaces";
 
 export const PrivateRoutes: IPrivateRoutes[] = [
@@ -18,5 +18,10 @@ export const PrivateRoutes: IPrivateRoutes[] = [
     component: ABOUT_PAGE,
     path: ABOUT_PATH,
     title: ABOUT_TITLE
+  },
+  {
+    component: PROJECT_PAGE,
+    path: PROJECT_PATH,
+    title: PROJECT_TITLE
   },
 ]

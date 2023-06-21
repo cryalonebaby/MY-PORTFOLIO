@@ -1,8 +1,7 @@
+import { ProjectsGallery } from "../components"
 
 const ProjectsPage = () => {
-  return (
-    <div>ProjectsPage</div>
-  )
+  return <ProjectsGallery />
 }
 
 export default ProjectsPage

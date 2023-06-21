@@ -13,7 +13,7 @@ const HocWrapper = styled('div')({
 
 const ComponentWrapper = styled('div')({
   flex: '1 1 auto',
-  maxWidth: '1200px',
+  width: '1200px',
   margin: '30px auto',
 })
 
